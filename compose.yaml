@@ -3,8 +3,8 @@ services:
     image: dockurr/windows
     environment:
       DISK_SIZE: "64G"
-      RAM_SIZE: "8G"
-      CPU_CORES: "4"
+      RAM_SIZE: "6G"
+      CPU_CORES: "2"
       DISK_TYPE: "ide"
     devices:
       - /dev/kvm
